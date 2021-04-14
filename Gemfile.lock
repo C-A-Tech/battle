@@ -27,13 +27,16 @@ GEM
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
     tilt (2.0.10)
+    webrick (1.7.0)
 
 PLATFORMS
   arm64-darwin-20
 
 DEPENDENCIES
+  rack (~> 2.2, >= 2.2.3)
   rspec (~> 3.10)
   sinatra (~> 2.1)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.16
